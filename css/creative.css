@@ -36,6 +36,13 @@ a:focus {
     color: #eb3812;
 }
 
+.aboutLinks > ul > li > a {
+    color: #fff;
+}
+.aboutLinks > ul > li > a:focus:hover {
+    color: #0080ff;
+}
+
 h1,
 h2,
 h3,
