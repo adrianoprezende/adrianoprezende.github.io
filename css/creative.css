@@ -24,6 +24,14 @@ hr.light {
     border-color: #fff;
 }
 
+hr.blue {
+    border-color: #0080ff;
+}
+
+hr.black {
+    border-color: #222;
+}
+
 a {
     color: #f05f40;
     -webkit-transition: all .35s;
@@ -37,10 +45,10 @@ a:focus {
 }
 
 .aboutLinks > ul > li > a {
-    color: #fff;
-}
-.aboutLinks > ul > li > a:focus:hover {
     color: #0080ff;
+}
+.aboutLinks > ul > li > a:hover {
+    color: #0063c6;
 }
 
 h1,
