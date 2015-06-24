@@ -489,3 +489,30 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+.button_appstore {
+    display:inline-block;
+    opacity:1;
+
+    z-index:100;
+}
+
+.button_appstore:visited, .button_appstore:active {
+    color:white;
+    text-decoration:none;
+}
+
+.button_appstore:focus {
+    outline:none;
+    text-decoration:none;
+    color:white;
+}
+
+.button_appstore:hover {
+    color:white;
+    opacity:1;
+}
+
+.button_appstore img {
+    height:9.1rem; margin-top:35px;
+}
